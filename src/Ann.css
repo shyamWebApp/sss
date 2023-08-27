@@ -1,0 +1,92 @@
+.anncoument{
+    width: 100%;
+display: flex;
+justify-content: center;
+    background-color: white;
+}
+.dummy{
+    width: 10%;
+}.content{
+    width: 70%;
+  
+    background-color: whitesmoke;
+    border-radius: 50px;
+    min-height: 450px;
+
+   
+  
+}
+
+
+.nnn{
+    display: flex;
+    justify-content: center;
+}
+
+.anncoument h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.color{
+    width: 100%;
+    min-height: 70px;
+    background-color:  rgb(218, 92, 92);;
+    border-radius: 50px 50px 0 0  ;
+}
+ .color h4{
+    text-align: center;
+    color: rgb(248, 245, 245);
+    padding-top: 15px;
+ }
+
+.pre{
+    margin: 50px 50px 50px 50px;
+    color: rgb(93, 89, 89);
+
+ }
+
+
+ .readmore{
+    text-align: center;
+    cursor: pointer;
+    color: rgb(206, 68, 68); ;
+ }
+
+ .cus{
+    cursor: pointer;
+ }
+
+
+ #check{
+    display: none;
+ }
+
+ .conten{
+    display: none;
+ }
+
+.anncoument label{
+    display: inline-block;
+}
+
+#check:checked .conten{
+    display: block;
+}
+
+.download{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.mob{
+    width: 50%;
+}
+
+
+.mob1{
+    padding: 100px 0 0 100px;
+}
+

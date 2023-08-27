@@ -1,0 +1,62 @@
+.hero-con{
+    display: flex;
+    width: 100%;
+
+}
+
+.hero-con div{
+ width: 80%;
+ background-color: white;
+justify-content: center;
+ align-items: center;
+ min-height: 150px;
+ margin-left: 10%;
+ border: 2px solid lightgray;
+}
+@media all and(max-width:609px)
+        {
+            .hero-con div{
+                width: 100%;
+                
+               }
+        }
+        
+        .hero-con div h3{
+            color: rgb(57, 204, 57);
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        .hero-con div h2{
+           text-align: center; 
+           margin-right: 30px;
+           font-weight: lighter;
+           color: rgb(51, 50, 50);
+        }
+        
+        
+        
+        
+        .hero-con h4{
+            text-align: end;
+            margin: 5px;
+        }
+        
+        
+        .end{
+            display: none;
+        
+            
+        }
+        
+        .fa-solid fa-xmark{
+            cursor: pointer;
+        }
+        
+        h4 div{
+            height: 10px;
+        }
+        
+        h4 span{
+            cursor: pointer;
+        }

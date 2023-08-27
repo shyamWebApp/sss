@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+.ddd{
+  position: relative;
+  text-align: center;
+}
+.pizza{
+margin-top: 40px;
+height: 350px;
+width: 100%;
+filter: contrast(50%);
+}
+.ddd1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.abs{
+  bottom: 0;
+  top: 150px;
+  left: 500px; 
+  text-align: center;
+  color:black;
+  text-size-adjust: bold;
+}
+.abs1 {
+  
+  bottom: 0;
+  top: 200px;
+  left: 550px;
+  text-align: center;
+  color:black;
+  text-size-adjust: bold;
+}
+.order {
+  width: 100%;
+
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-weight: lighter;
+  margin: auto;
+}
+
+.order div {
+  margin-top: 50px;
+  color: rgb(62, 59, 59);
+}
+
+.order img {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+}
+.order h4 {
+  margin-left: 65px;
+}
+.order.arrow {
+  margin-left: 50px;
+  height: 100px;
+}
+.order pre {
+  font-size: small;
+  margin-left: 30px;
+}
+.order pre {
+  font-size: small;
+}
+
+@media all and(max-width:914px) {
+  .order div {
+    flex-wrap: wrap;
+  }
+  .order.abs{
+    font-size: small;
+  }
+}
+
+.ex {
+  text-align: center;
+}
+/* .cusine {
+  height: 300px;
+  width:50%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding:10px;
+  
+  margin:auto;
+  position: relative;
+  border-radius: 100px;
+  background: linear-gradient(to right, #ff0066 10%, #ffcc66 100%);
+} */ 
+
+.lead {
+  margin-top: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+.ol {
+  height: 100px;
+  width: 200px;
+  border: 2px solid lightgrey;
+  /* margin: 50px; */
+  
+  position: relative;
+  border-radius: 15px;
+  
+}
+.flexol {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  width:50%;
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+  justify-content: center;
+  
+  gap: 20px;
+}
+
+.ol1 {
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 58px;
+  text-align: center;
+  color: rgb(206, 68, 68);
+  position: absolute;
+  bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+#loc {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.ol2 {
+  font-size: small;
+  margin-left: 50px;
+  margin-top: -30px;
+}
+.ol3 {
+  margin-left: 60px;
+  margin-top: 10px;
+  color: rgb(206, 68, 68);
+}
+#dl {
+  margin-left: 20px;
+}
+.dl1 {
+  font-size: small;
+  margin-left: 60px;
+  margin-top: -30px;
+}
+.dr {
+  
+  height: 100px;
+  width: 200px;
+  border: 2px solid lightgrey;
+
+  border-radius: 15px;
+}
+
+.qw {
+  text-align: center;
+}
+.qw span {
+  color: rgb(206, 68, 68);
+}
+
+.cusine {
+  display: flex;
+  flex-direction:row;
+  
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1150px;
+  height: 220px;
+  /* background: linear-gradient(to right, #fd567c 0%, #f0835d 100%); */
+  border-radius: 35px;
+  margin-left:150px;
+}
+@media (max-width:900px){
+  .cusine{
+    flex-direction: column;
+    height: 1150px;
+    width: 220px;
+    padding-top:5px;
+    /* background: linear-gradient(to bottom, #fd567c 0%, #f0835d 100%); */
+  }
+}
+
+.con {
+  width: 200px;
+  height: 100px;
+  color: white;
+  font-size: larger;
+
+  padding: 20px 0 0 45px;
+}
+
+.con:hover {
+  background-color: rgb(232, 228, 228);
+  color: rgb(59, 56, 56);
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+.con1 svg:hover {
+  fill: black;
+  cursor: pointer;
+}
+@media all and(max-width:750px) {
+  .pre {
+    font-size: xx-small;
+  }
+
+  .color h4 {
+    font-size: small;
+  }
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-left: 50px;
+  height: 700px;
+  width: 1400px;
+
+  display: flex;
+}
+.dow {
+  margin-top: 90px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+}
+.download {
+  margin-top: 100px;
+  margin-left: 50px;
+  padding-left: 60px;
+  height: 250px;
+  width: 450px;
+
+  font-weight: light;
+}
+.ord {
+  margin-left: 50px;
+}
+.mob {
+  
+  height: 670px;
+  width: 650px;
+}
+.sss {
+  margin-top: 50px;
+  height: 70px;
+  width: 150px;
+}
+@media all and(max-width:750px){
+  .parent{
+    flex-direction:column;
+    flex-wrap: wrap;
+  }
+  
+}

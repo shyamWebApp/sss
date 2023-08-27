@@ -1,0 +1,105 @@
+.Phone-image1 h1{
+    margin: 150px 0 0 100px;
+    color: rgb(54, 55, 55);
+  }
+
+  .phone-image1 pre{
+    margin-left: 60px;
+  }
+
+
+  .Phone-image1{
+    width: 50%;
+  }
+
+  .Phone-image2{
+    width: 50%;
+  }
+
+  .Phone-image img{
+    width: 600px;
+    height: 500px;
+  }
+  .imgf{
+    color: rgb(63, 63, 63);
+    margin-top: 30px; 
+    margin-left: 40px;  
+    font-size: smaller; 
+  }
+
+.hid{
+    display: none;
+}
+
+.more{
+    display: block;
+}
+
+  @media all and (max-width:1000px)
+  {
+
+
+    .center1{
+      display: flex;
+      justify-content: center;
+      margin-left: 10px;
+    }
+
+    .Phone-image{
+
+    flex-direction: column;
+    }
+
+    .Phone-image1{
+      width: 100%;
+    }
+
+    .Phone-image2{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Phone-image2 img{
+      width: 390px;
+      height: 350px;
+    }
+    .Phone-image1 h1{
+      text-align: center;
+      margin: 50px 0 0 50px;
+      color: rgb(54, 55, 55);
+      
+    }
+
+
+
+   .imgf{
+         margin-left: 1px;
+      
+         
+   }
+
+
+    }
+    .play-apple
+    {
+      margin: 25px 0 0 100px;
+    }
+
+.play-apple img{
+  width: 100px;
+  height: 70px;
+ 
+}
+
+
+.aa{
+  margin-right: 50px;
+}
+
+
+.play-apple img{
+    width: 120px;
+    height: 50px;
+}
+
